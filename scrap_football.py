@@ -10,7 +10,7 @@ italy = {'name': 'Italy-A', 'link': 'https://fbref.com/pt/comps/11/cronograma/Se
 france = {'name': 'France-1', 'link': 'https://fbref.com/pt/comps/13/cronograma/Ligue-1-Resultados-e-Calendarios', 'match_sched': 'div_sched_2022-2023_13_1'}
 bundesliga = {'name': 'Bundesliga', 'link': 'https://fbref.com/pt/comps/20/cronograma/Bundesliga-Resultados-e-Calendarios', 'match_sched': 'div_sched_2022-2023_20_1'}
 portugal = {'name':'PrimeiraLiga','link':'https://fbref.com/pt/comps/32/cronograma/Primeira-Liga-Resultados-e-Calendarios', 'match_sched': 'div_sched_2022-2023_32_1'}
-competitions = [premier, italy, france, bundesliga, portugal]
+competitions = [premier, italy, france, bundesliga, portugal, laLiga]
 
 
 def get_schedule(url, id_table):
